@@ -1,0 +1,123 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 98.5%;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.img {
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+span {
+  color: #0033ffe4;
+  font-size: 3rem;
+}
+.third {
+  background-image: url(images/2.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.third ul {
+  margin-top: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.fourth {
+  background-image: url(images/3.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+}
+
+.fourth h2, .fourth p, .fourth h3 {
+  color: #ffffff;
+  line-height: 1.6; /* Increase line height for better readability */
+  text-align: justify; /* Justify text for a cleaner look */
+  margin-bottom: 1rem; /* Add margin between paragraphs */
+}
+.fourth {
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+}
+.fifth {
+  background-image: url(images/4.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+  color: #ffffff;
+  gap: 2rem;
+  font-size: medium;
+  font-weight: 600;
+}
+/* Add margin to create a gap between sections */
+#why-choose-us {
+  margin-bottom: 4rem; /* Adjust the value as needed */
+}
+
+#our-process {
+  margin-top: 4rem; /* Adjust the value as needed */
+}
+
+.sixth {
+  background-image: url(images/5.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+.last {
+  background-image: url(images/6.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+}
+.thanks {
+  font-size: 5.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
